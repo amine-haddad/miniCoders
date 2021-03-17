@@ -8,3 +8,13 @@
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
+<section>
+<nav>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</nav>
+</section>
