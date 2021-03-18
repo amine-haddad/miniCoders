@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-<section>
-<nav>
+<section class=containerheader>
+<nav class= navBar>
+    <div class="containerLogo"></div>
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>menu</li>
+<li>menu2</li>
+<li>menu3</li>
+<li>menu4</li>
 </ul>
 </nav>
 </section>
