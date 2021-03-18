@@ -1,19 +1,15 @@
-<form  method="post">
-			<ul>
-				<li>
-					<label for="name">Name:</label>
-					<input type="text" id="name" name="LANCELOT" />
-				</li>
-				<li>
-					<label for="mail">E-mail:</label>
-					<input type="email" id="mail" name="Ici c'est pour ton Mail" />
-				</li>
-				<li>
-					<label for="msg">Message:</label>
-					<textarea id="msg" name="Laisse ton Message"></textarea>
-				</li>
-				<li class="button">
-					<button type="submit">Un Petit Mot STP</button>
-				</li>
-			</ul>
-		</form>
+<section id="contact">
+    <h8>Contactez John DOE</h8>
+        <p>Merci de remplir le formulaire et John DOE vous répondra</p>
+            <form class=" formulaire ">
+                <label for="name">Nom de Famille:</label><br>
+                <input type="text" id="name" name="fname" value="DOE"><br>
+                <label for="last name">Prénom:</label><br>
+                <input type="text" id="last name" name="lname" value="John"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" value="johnDOE@LancelotduLac.com"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Soumettre">
+            </form>
+</section>
