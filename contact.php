@@ -10,6 +10,6 @@
                 <input type="email" id="email" name="email" value="johnDOE@LancelotduLac.com"><br>
                 <label for="message">Message:</label><br>
                 <textarea id="message" name="message"></textarea><br><br>
-                <input type="submit" value="Soumettre">
+                <button class="btn" type="button">SOUMETTRE></button>
             </form>
 </section>
