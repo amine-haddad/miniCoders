@@ -1,6 +1,7 @@
-<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="../assets/style.css">
 <section id="contact">
-    <h8>Contactez John DOE</h8>
+    <h6>Contactez John DOE</h6>
         <p>Merci de remplir le formulaire et John DOE vous répondra</p>
             <form class=" formulaire ">
                 <label for="name">Nom de Famille:</label><br>
