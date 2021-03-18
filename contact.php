@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 <section id="contact">
     <h8>Contactez John DOE</h8>
         <p>Merci de remplir le formulaire et John DOE vous répondra</p>
