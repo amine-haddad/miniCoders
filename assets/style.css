@@ -7,21 +7,33 @@
 /*partie projet*/
 
 /*partie contact*/
-h2 {
+h6{
     text-align: center;
     color: white;
     background-color: #9F9D9A;
+    height: 22px;
+    font-size: 16px;
+}
+p{
+    text-align: center;
+    color: white;
+    background-color: #9F9D9A; 
+    height: 22px; 
+    font-size: 16px;
 }
 .formulaire input {
     display: block;
-    margin-bottom: 5px;
-    padding: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
     background-color: #9F9D9A;
     color: white;
+    
 }
 form{
     width: 10%;
     margin: 0 auto;
+    padding-top: 50px;
+    
 }
 .btn {
     display: block;
