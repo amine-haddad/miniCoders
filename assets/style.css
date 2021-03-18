@@ -1,3 +1,7 @@
+/*Partie*/
+
+
+
 /*partie header*/
 
 /*partie home*/
@@ -5,6 +9,59 @@
 /*partie about me*/
 
 /*partie projet*/
+
+
+
+.backgroundProject {
+   
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+    background-color:#FFF4E9;
+}
+img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.project{
+    
+   
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3,auto);
+    gap: 20px;
+    grid-template-areas: "fixedHeader fixedHeader fixedHeader fixedHeader fixedHeader fixedHeader"
+                         "content content content content content socialMedia"
+                         "fixedFooter fixedFooter fixedFooter fixedFooter fixedFooter fixedFooter";
+
+}
+
+.fixedHeader{
+    grid-area: fixedHeader;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.content{
+    grid-area: content;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2;
+}
+
+/*.underProject{
+    grid-area:underProject;
+    display:grid;
+    grid-template-rows: repeat(2, auto);
+}*/
+
+.socialMedia{
+    grid-area: socialMedia;
+
+}
 
 /*partie contact*/
 
