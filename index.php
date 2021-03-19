@@ -1,7 +1,9 @@
 
-<?php include _header.php?>
-<?php include home.php?>
-<?php include aboutMe.php?>
-<?php include project.php?>
-<?php include contact.php?>
-<?php include _footer.php?>
+<?php include "_layout/_header.php";
+include "home.php";
+include "aboutMe.php";
+include "project.php";
+include "contact.php";
+include "_layout/_footer.php"; 
+
+
