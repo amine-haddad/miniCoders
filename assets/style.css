@@ -71,4 +71,6 @@ textarea{
     box-shadow: 0 0 #333;
     top: 6px;
 }
+form .btn{display: flex;
+justify-content: space-around;}
 /*partie footer*/
