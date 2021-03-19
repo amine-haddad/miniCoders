@@ -1,5 +1,5 @@
-<!--Ici tu vode ton footer-->
-<script> <src="../assets/main.js"</script>
+<!--Ici tu codes ton footer-->
+<script src="../assets/main.js"></script> 
 </body>
 </html>
  

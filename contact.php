@@ -1,4 +1,3 @@
-
 <link rel="stylesheet" href="../assets/style.css">
 <section id="contact" class="all_contact">
     <h6>Contactez John DOE</h6>
@@ -16,3 +15,5 @@
                     <button class="btn" type="button">SOUMETTRE</button>
             </form>
 </section>
+
+
