@@ -63,6 +63,75 @@ body {
 
 /*partie projet*/
 
+
+
+.backgroundProject {
+   
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+    color:#9F9D9A;
+    background-color:#FFF4E9;
+}
+img{
+    max-width: 100%;
+    max-height: auto;
+    box-shadow: 10px 10px 0px #9F9D9A;
+}
+
+.project{
+    
+   
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    grid-template-areas: "fixedHeader fixedHeader fixedHeader fixedHeader fixedHeader fixedHeader"
+                         "content content content content content socialMedia";
+
+}
+
+.fixedHeader{
+    grid-area: fixedHeader;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.content{
+    grid-area: content;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    
+}
+
+
+
+.underProject{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat 1fr 3fr 3fr;
+    
+}
+.projectTitle{
+    position: sticky;
+    bottom: 0;
+    background-color: #FFF4E9;
+    opacity: 0;
+    transition: opacity .5s ease;
+
+}
+.underProject:hover .projectTitle{
+    opacity: 1;
+}
+
+.socialMedia{
+    grid-area: socialMedia;
+
+}
+
 /*partie contact*/
 
 /*partie footer*/
