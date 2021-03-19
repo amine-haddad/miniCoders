@@ -1,9 +1,5 @@
-<link rel="stylesheet" href="../assets/style.css">
-
 <section class="home_page">
-    <section class="home_header">
-    </section>
-
+    <section class="home_header"></section>
     <section class="home_content">
         <div class="home_sidebar">
             <ul>
@@ -62,4 +58,3 @@ new TypeIt('#jesuis', {
         )
     });
 -->
-   
