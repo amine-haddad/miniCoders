@@ -4,6 +4,53 @@
 
 /*partie about me*/
 
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content:space-evenly;
+  
+}
+
+.flex-item {
+  background: #FFFBFF; 
+  padding: 5px;
+  width: 500px;
+  height: 400px;
+  margin-top: 10px;
+
+  
+  
+  line-height: 35px;
+  color:#9F9D9A;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h5{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 45px;
+    font-family:'Raleway', sans-serif;
+    color: lightslategray;
+}
+
+section {
+    background-color: #FFFBFF; 
+    
+}
+
+
+
+
 /*partie projet*/
 
 /*partie contact*/
