@@ -1,10 +1,63 @@
-/*Partie*/
-
-
+body {
+    background-color: white;
+    margin: 0;
+  }
 
 /*partie header*/
 
 /*partie home*/
+
+
+.home_page {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 1fr 8fr;
+    grid-template-areas: 
+        "header header"
+        "sidebar main";
+    row-gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.home_header {
+    width: 100%;
+    grid-area: header;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.home_sidebar {
+    grid-area: sidebar;
+    position: fixed;
+    left: 0;
+    justify-self: start; 
+}
+
+
+.home_sidebar ul li {
+    list-style: none; 
+}
+
+.home_sidebar img {
+    width: 30px;
+}
+
+.home_sidebar p {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: black;  
+    font-family: 'Rolaway', sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.home_img_title {
+    grid-area: main;
+}
+
 
 /*partie about me*/
 
