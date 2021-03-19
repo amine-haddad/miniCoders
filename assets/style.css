@@ -4,6 +4,20 @@
 
 /*partie about me*/
 
+.animate-text { 
+	visibility:hidden;
+}
+.animate-text span { 
+	display:flex;
+  
+  color:lightgray; 
+  animation:fade-in 0.8s ease-in-out 1;
+	animation-fill-mode:forwards;
+}
+@keyframes fade-in {
+	0% { opacity:0; font-size:0; margin-left:100px; }
+  100% { opacity:1; font-size:150%; transform:rotate(360deg); margin-left:375; }
+}
 
 
 .flex-container {
@@ -40,13 +54,15 @@ h5{
     text-align: center;
     padding-top: 45px;
     font-family:'Raleway', sans-serif;
-    color: lightslategray;
+    color: lightgray;
 }
 
 section {
     background-color: #FFFBFF; 
     
 }
+
+
 
 
 
