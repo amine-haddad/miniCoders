@@ -4,4 +4,4 @@
 <?php include ("aboutMe.php")?>
 <?php include ("project.php")?>
 <?php include ("contact.php")?>
-<?php include ("./_layout/_footer.php")?>
+<?php include ("../_layout/_footer.php")?>
