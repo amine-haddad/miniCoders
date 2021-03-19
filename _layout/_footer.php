@@ -1,7 +1,7 @@
 <!--Ici tu code ton footer-->
-<section class="containerHeader">
+<section class="containerFooter">
     <footer>
-        <div class="containerfoot">
+        <div class="containerFoot">
 
         </div>
 

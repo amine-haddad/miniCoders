@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniCoders</title>
     <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <section class=containerheader>
-<nav class= navBar>
-    <div class="containerLogo"></div>
-<ul>
-<li>menu</li>
-<li>menu2</li>
-<li>menu3</li>
-<li>menu4</li>
-</ul>
-</nav>
+     
+<div id="burger">
+     <!--<i class="fa fa-bars fa-2x" aria-hidden="true"></i>-->
+     <input type="checkbox" id="burger_checkbox"/>
+      <ul class=menubuttons>
+            <li class=buttonHome><a href="#" class=btnHrefNav >Home</a></li>
+            <li class=buttonAbout><a href="#" class=btnHrefNav>About Me</a></li>
+            <li class=buttonProject><a href="#"class=btnHrefNav>Project</a></li>
+            <li class=buttonContact><a href="#"class=btnHrefNav>Contact</a></li>
+        </ul>   
+     </div>   
+     
+     <h1> Page en construction... </h1>
+        
 </section>
