@@ -1,5 +1,13 @@
-<!--Ici tu codes ton footer-->
-<script src="../assets/main.js"></script> 
+<!--Ici tu code ton footer-->
+<section class="containerFooter">
+    <footer>
+        <div class="containerFoot">
+
+        </div>
+
+    </footer>
+</section>
+<script> <src="../assets/main.js"</script>
 </body>
 </html>
  
