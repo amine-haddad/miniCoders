@@ -196,5 +196,69 @@ img{
 }
 
 /*partie contact*/
+.all_contact{
+    background-color: #FFF4E9;
+}
+h6{
+    text-align: center;
+    color: white;
+    background-color: #9F9D9A;
+    height: 22px;
+    font-size: 16px;
+}
+p{
+    text-align: center;
+    color: white;
+    background-color: #9F9D9A; 
+    height: 22px; 
+    font-size: 16px;
+}
+
+.formulaire input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #9F9D9A;
+    color: white;
+    text-align: center;
+
+}
+form{
+    width: 15%;
+    margin:  auto;
+    padding-top: 50px;
+    background-color: #FFF4E9;
+    
+}
+textarea{
+    height: 160px;
+    padding-right: 95px;
+    size: 16px;
+    background-color: #9F9D9A;
+    color: white;
+}
+.btn {
+    display: block;
+    margin: 40px auto 0;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    padding: 30px 80px;
+    background: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px ;
+    position: relative;
+    box-shadow: 0 6px #333;
+}
+.btn:hover {
+    box-shadow:0 6px #333;
+    top: 2px;
+}
+.btn:active {
+    box-shadow: 0 0 #333;
+    top: 6px;
+}
 
 /*partie footer*/
