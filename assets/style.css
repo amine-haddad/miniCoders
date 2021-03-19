@@ -16,11 +16,13 @@
    
     font-family:'Raleway', sans-serif;
     font-size: 16px;
+    color:#9F9D9A;
     background-color:#FFF4E9;
 }
 img{
     max-width: 100%;
     max-height: auto;
+    box-shadow: 10px 10px 0px #9F9D9A;
 }
 
 .project{
@@ -28,11 +30,10 @@ img{
    
     display:grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3,auto);
+    grid-template-rows: repeat(2, auto);
     gap: 20px;
     grid-template-areas: "fixedHeader fixedHeader fixedHeader fixedHeader fixedHeader fixedHeader"
-                         "content content content content content socialMedia"
-                         "fixedFooter fixedFooter fixedFooter fixedFooter fixedFooter fixedFooter";
+                         "content content content content content socialMedia";
 
 }
 
@@ -46,17 +47,32 @@ img{
 }
 .content{
     grid-area: content;
-    gap: 10px;
+    gap: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2;
+    grid-template-rows: 1fr 5fr 1fr;
+    
 }
 
-/*.underProject{
-    grid-area:underProject;
+
+
+.underProject{
     display:grid;
-    grid-template-rows: repeat(2, auto);
-}*/
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat 1fr 3fr 3fr;
+    
+}
+.projectTitle{
+    position: sticky;
+    bottom: 0;
+    background-color: #FFF4E9;
+    opacity: 0;
+    transition: opacity .5s ease;
+
+}
+.underProject:hover .projectTitle{
+    opacity: 1;
+}
 
 .socialMedia{
     grid-area: socialMedia;
