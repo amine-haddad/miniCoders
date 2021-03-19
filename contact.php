@@ -2,8 +2,7 @@
 <section id="contact" class="all_contact">
     <h6>Contactez John DOE</h6>
         <p class="Merci">Merci de remplir le formulaire et John DOE vous répondra</p>
-        <div class="container">
-                <form class=" formulaire ">
+                    <form class=" formulaire ">
                     <label for="name">Nom de Famille:</label><br>
                     <input type="text" id="name" name="fname" value="DOE"><br>
                     <label for="last name">Prénom:</label><br>
