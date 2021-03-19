@@ -61,6 +61,69 @@ body {
 
 /*partie about me*/
 
+.animate-text { 
+	visibility:hidden;
+}
+.animate-text span { 
+	display:flex;
+  
+  color:lightgray; 
+  animation:fade-in 0.8s ease-in-out 1;
+	animation-fill-mode:forwards;
+}
+@keyframes fade-in {
+	0% { opacity:0; font-size:0; margin-left:100px; }
+  100% { opacity:1; font-size:150%; transform:rotate(360deg); margin-left:375; }
+}
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content:space-evenly;
+  
+}
+
+.flex-item {
+  background: #FFFBFF; 
+  padding: 5px;
+  width: 500px;
+  height: 400px;
+  margin-top: 10px;
+
+  
+  
+  line-height: 35px;
+  color:#9F9D9A;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h5{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 45px;
+    font-family:'Raleway', sans-serif;
+    color: lightgray;
+}
+
+section {
+    background-color: #FFFBFF; 
+    
+}
+
+
+
+
+
+
 /*partie projet*/
 
 
