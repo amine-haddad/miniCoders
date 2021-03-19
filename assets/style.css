@@ -7,6 +7,9 @@
 /*partie projet*/
 
 /*partie contact*/
+.all_contact{
+    background-color: #FFF4E9;
+}
 h6{
     text-align: center;
     color: white;
@@ -21,27 +24,37 @@ p{
     height: 22px; 
     font-size: 16px;
 }
+
 .formulaire input {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px;
     background-color: #9F9D9A;
     color: white;
-    
+    text-align: center;
+
 }
 form{
-    width: 10%;
-    margin: 0 auto;
+    width: 15%;
+    margin:  auto;
     padding-top: 50px;
+    background-color: #FFF4E9;
     
+}
+textarea{
+    height: 160px;
+    padding-right: 95px;
+    size: 16px;
+    background-color: #9F9D9A;
+    color: white;
 }
 .btn {
     display: block;
-    margin: 150px auto 0;
-    font-size: 30px;
+    margin: 40px auto 0;
+    font-size: 20px;
     font-weight: lighter;
     color: white;
-    padding: 25px 80px;
+    padding: 30px 80px;
     background: black;
     outline: none;
     border: none;
