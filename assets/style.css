@@ -5,8 +5,8 @@
     background-color:#9F9D9A ;
 
     display: flex;
-    flex-direction: column /* => A utiliser quand le burger est affiché */
-     flex-direction: row/*; => A utiliser quand le burger n'est pas affiché */
+    flex-direction: column ;/* => A utiliser quand le burger est affiché */
+     flex-direction: row;/*; => A utiliser quand le burger n'est pas affiché */
     
 
 }
@@ -30,10 +30,7 @@ input[type="checkbox"]:not(:checked) + ul {
    display: flex;
    }
 
-   @media screen and (max-width: 640px) { 
-    /* Gestion de l'affichage du menu */
-    input[type="checkbox"]:not(:checked) ~ ul {
-      display: none;
+   @media screen and (max-widt[/kc_column_inner][/kc_row_inner][/kc_column][/kc_row]
     }
     input[type="checkbox"]:checked ~ ul {
       display: flex;
@@ -45,8 +42,8 @@ input[type="checkbox"]:not(:checked) + ul {
       font-size: 30px;
     }
 
-    [/kc_column_text]
-    [/kc_column_inner][/kc_row_inner][/kc_column][/kc_row]
+    
+    
   
     input[type="checkbox"] + label:before {
       content: "\f0c9";
@@ -56,8 +53,7 @@ input[type="checkbox"]:not(:checked) + ul {
       content: "\f0c9";
     }
   
-    [/kc_column_text]
-    [/kc_column_inner][/kc_row_inner][/kc_column][/kc_row]
+    
     input[type="checkbox"]:checked + label:before {
       content: "\f00d";
     }
