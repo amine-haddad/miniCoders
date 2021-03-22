@@ -11,7 +11,8 @@
                     <input class="enterFormulaire" type="email" id="email" name="email" value="johnDOE@LancelotduLac.com"><br>
                     <label for="message">Message:</label><br>
                     <textarea class="texteClient" id="message" name="message"></textarea><br><br>
-                    <button class="btnContact" type="button">SOUMETTRE</button>
+                    <div class="sectionSubmit"><button class="btnContact" type="button">SOUMETTRE</button></div>
+                    
             </form>
 </section>
 
