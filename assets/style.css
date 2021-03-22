@@ -384,10 +384,15 @@ textarea {
 
 /*partie footer*/
 
-.containerFooter {
+/*.containerFooter {
+
+}*/
+.containerFoot{
+    
     display: flex;
     height: 200 px;
     width: 100%;
     background-color: #e9900a;
-}
-
+    }
+    
+    
