@@ -1,5 +1,5 @@
-<section class="backgroundProject">
-    <h2 class="titleProject">Projects</h2>
+<section class="backgroundProject" id="pageProject">
+    <h2 class="animate-text">PROJECTS</h2>
         <main class="project">
             <div class="underProject">
                 <h2 class="titleUnderProject">Rencontrez des Dev</h2>

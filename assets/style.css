@@ -186,17 +186,12 @@ section {
     background-color: #FFF4E9;
     height: 100vh;
 }
-.titleProject {
-    display: flex;
-    justify-content: space-around;
     
-    height: 10%;
-    
-}
+
 
 .imgProject {
     max-width: 90%;
-    box-shadow: 10px 10px 0px #9F9D9A;
+    box-shadow: 2px 2px 0px #9F9D9A;
     border-radius: 2%;
 }
 .textDescriptionProject {
@@ -208,7 +203,7 @@ section {
     flex:auto;
     justify-content: space-between;
     align-items: center;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-right: 25px;
     height: 90%;
 }
