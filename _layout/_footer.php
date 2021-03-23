@@ -7,7 +7,7 @@
 
     </footer>
 </section>
-<script> <src="../assets/main.js"</script>
+<script src="../assets/main.js"></script>
 </body>
 </html>
  
