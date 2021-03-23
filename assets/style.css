@@ -387,12 +387,21 @@ textarea {
 /*.containerFooter {
 
 }*/
+.containerFooter{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: #9F9D9A;
+}
+.footerGround{
+    
+}
 .containerFoot{
     
     display: flex;
     height: 200 px;
     width: 100%;
-    background-color: #e9900a;
+    background-color: #9F9D9A;
     }
     
     
