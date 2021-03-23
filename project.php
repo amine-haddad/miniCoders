@@ -1,4 +1,4 @@
-<section class="backgroundProject" >
+<section class="backgroundProject">
     <section class="project">
         <header class="fixedHeader">
         <!--Placer header-->
