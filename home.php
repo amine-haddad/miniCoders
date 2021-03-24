@@ -1,6 +1,5 @@
-<section class="home_page">
-    <section class="home_header"></section>
-    <section class="home_content">
+<section class="home_page" id="home_page">
+    <div class="home_content">
         <div class="home_sidebar">
             <ul>
                 <li>
@@ -33,28 +32,13 @@
                 <img src="https://zupimages.net/up/21/11/u43w.png" alt="keyboard_draw"/>
             </div>
             <div class="home_title">
-                <h1>John Doe <br> Web Developper</h1>
+                <h1 class="animate-home-text">John Doe</h1>
+                <h2 class="animate-home-text">Web Developer</h2>
             </div>
         </div>
-    </section>
+        <div class="scroll_up">
+            <a href="#home_page_id"><img src="https://zupimages.net/up/21/12/i2mq.png" alt="fleche retour haut" /></a>
+        </div>
+    </div>
 </section>
-<!-- JS
-* animated typing utility 
-/* ---------------------------------------------- */
-        
-new TypeIt('#jesuis', {
-  strings: ["Je suis Gael MANZOLA", "DÉVELOPPEUR WEB & JAVA"],
-  speed: 50,
-  loop:true,
-  loopDelay:10000,
-  waitUntilVisible: true
-}).go();
-    
- $(document).ready(function() {
-      $('.progress .progress-bar').css("width",
-                function() {
-                    return $(this).attr("aria-valuenow") + "%";
-                }
-        )
-    });
--->
+
