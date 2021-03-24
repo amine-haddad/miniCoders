@@ -254,64 +254,69 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
 
 /*partie about me*/
 
-.animate-text {
-    visibility: hidden;
-}
-
-.animate-text span {
-    display: flex;
-    color: lightgray;
-    animation: fade-in 0.8s ease-in-out 1;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fade-in {
-    0% {
-        opacity: 0;
-        font-size: 0;
-        margin-left: 100px;
+@media screen and (max-width:640px) {
+    .containerAboutMe {
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;
     }
-    100% {
-        opacity: 1;
-        font-size: 150%;
-        transform: rotate(360deg);
-        margin-left: 375;
+    .paragraphAboutMe{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+       
     }
 }
-
-.flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-evenly;
-}
-
-.flex-item {
-    background: #FFFBFF;
-    padding: 5px;
-    width: 500px;
-    height: 400px;
-    margin-top: 10px;
-    line-height: 35px;
-    color: #9F9D9A;
-    font-size: 16px;
-    text-align: center;
+ 
+.aboutMe{
+    background-color: #FFFBFF;
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #9F9D9A;
+    height:100vh;
 }
-
-h5 {
+.animate-text {
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
     font-size: 35px;
     text-align: center;
-    padding-top: 45px;
     font-family: 'Raleway', sans-serif;
     color: lightgray;
 }
+    @keyframes fade-in {
+        0% { opacity:0; font-size:0; margin-left:100px; }
+      100% { opacity:1; font-size:150%; transform:rotate(360deg); margin-left:375; }
+    }
+  
 
-section {
-    background-color: #FFFBFF;
-}
+.containerAboutMe {
+    display: flex; 
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 25px;
+
+   }
+  
+   
+   .imageAboutMe{
+     height: auto;
+     width: auto;
+     border-radius: 2px;
+     box-shadow: 2px 2px 0px;
+   }
+
+   .paragraphAboutMe {
+    max-width: 90%;
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+    
+     
+   }
+
+
+   
+
 
 /*partie projet*/
 
