@@ -370,9 +370,10 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
 
 .all_contact {
     background-color: #FFF4E9;
+    height: 100vh;
 }
 
-h6 {
+.Contact{
     text-align: center;
     color: white;
     background-color: #9F9D9A;
@@ -387,8 +388,10 @@ h6 {
     font-size: 16px;
 }
 
-.formulaire input {
-    display: block;
+.formulaire .enterFormulaire {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 10px;
     padding: 10px;
     background-color: #9F9D9A;
@@ -403,7 +406,7 @@ form {
     background-color: #FFF4E9;
 }
 
-textarea {
+.texteClient{
     height: 160px;
     padding-right: 95px;
     size: 16px;
@@ -411,13 +414,13 @@ textarea {
     color: white;
 }
 
-.btn {
+.btnContact {
     display: block;
-    margin: 40px auto 0;
+    margin: 20px auto 0;
     font-size: 20px;
     font-weight: lighter;
     color: white;
-    padding: 30px 80px;
+    padding: 20px 60px;
     background: black;
     outline: none;
     border: none;
@@ -427,21 +430,20 @@ textarea {
     box-shadow: 0 6px #333;
 }
 
-.btn:hover {
-    box-shadow: 0 6px #333;
+.sectionSubmit { 
+    margin: 10px 0px 10px;
+}
+.btnContact:hover {
+    box-shadow:0 6px #333;
     top: 2px;
 }
-
-.btn:active {
+.btnContact:active {
     box-shadow: 0 0 #333;
     top: 6px;
 }
 
 /*partie footer*/
 
-/*.containerFooter {
-
-}*/
 .containerFooter{
     display: flex;
     height: 150px;
@@ -460,3 +462,4 @@ textarea {
     }
     
     
+
