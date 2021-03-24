@@ -1,60 +1,144 @@
 body {
+    font-family: 'Raleway', sans-serif;
     background-color: white;
     margin: 0;
 }
 
 /*partie header*/
-
-.containerheader {
-    background-color: #9F9D9A;
-    display: flex;
-    flex-direction: column;
-    /* => A utiliser quand le burger est affiché */
-    flex-direction: row;
-    /*; => A utiliser quand le burger n'est pas affiché */
+.nameSignature{
+    /*height: 40px;*/ 
+    display:flex; 
+    justify-content: flex-end;
+    width: 100%;
+    background-color: none ;
+       
 }
-
-li {
-    list-style-type: none;
-    padding: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #000000;
-}
-
-input[type="checkbox"]:not(:checked)+ul {
-    display: none;
-}
-
-input[type="checkbox"]:checked+ul {
-    display: flex;
-}
-
-/* Gestion de la checkbox */
-
-input[type="checkbox"]+label:before {
-    font-family: FontAwesome;
-    font-size: 30px;
-}
-
-input[type="checkbox"]+label:before {
-    content: "\f0c9";
-}
-
-input[type="checkbox"]:not(:checked)+label:before {
-    content: "\f0c9";
-}
-
-input[type="checkbox"]:checked+label:before {
-    content: "\f00d";
-}
-
-h1 {
+.signedJohn {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: #FFFBFF;
+    align-content: center;
     text-align: center;
-    font-size: xx-large;
 }
+.containerheader {
+    height: auto;
+    background-color: #9F9D9A;
+    display:flex; 
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0; 
+    
+}
+#burger {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color:none;
+}
+.logoNav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+.checkboxInput {
+    position: absolute;
+    left: -9999px;
+}
+
+
+
+.menubuttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+ .btnNav {
+    padding: 0px;
+    list-style-type: none;
+    
+ }
+.aNavhf{
+    text-align: center;
+    color: #FFFBFF;
+    text-decoration: none; 
+}
+input[type="checkbox"]:not(:checked) + .menubuttons {
+    display: none;
+   }
+   input[type="checkbox"]:checked + .menubuttons {
+   display: flex;
+   }
+   @media screen and (max-width: 640px) { 
+    /* Gestion de l'affichage du menu */
+    input[type="checkbox"]:not(:checked) ~ .menubuttons {
+        display: flex;
+        flex-direction: row;
+      display: none;
+    }
+  
+    input[type="checkbox"]:checked ~ .menubuttons {
+      display: flex;
+      flex-direction: column; /* => A utiliser quand le burger est affiché */
+      text-align: center;
+      width: 20%;
+    
+    }
+    /*.logoNav {
+        position: fixed;
+        left: 0;
+
+    }*/
+    .containerheader{
+        height: auto;
+        background-color: #9F9D9A;
+        display:flex;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        right: 0; 
+    }
+    #burger {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        background-color:none;
+        top: 0;
+        left: 0;
+        opacity: 0.80;
+    }
+    .nameSignature{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .signedJohn {
+
+    }
+    
+    /* Gestion de la checkbox */
+    input[type="checkbox"] + label:before {
+      font-family: FontAwesome;
+      font-size: 40px;
+    }
+  
+    input[type="checkbox"] + label:before {
+      content: "\f0c9";
+    }
+  
+    input[type="checkbox"]:not(:checked) + label:before {
+      content: "\f0c9";
+    }
+  
+    input[type="checkbox"]:checked + label:before {
+      content: "\f00d";
+      font-size: xx-small;
+
+    }
+  }
 
 /*partie home*/
 
@@ -300,14 +384,24 @@ textarea {
 
 /*partie footer*/
 
-.containerFooter {
-    height: 200 px;
+/*.containerFooter {
+
+}*/
+.containerFooter{
+    display: flex;
+    height: 150px;
     width: 100%;
     background-color: #9F9D9A;
 }
-
-@media screen and (max-width: 640px) {
-    ul {
-        flex-direction: column;
-    }
+.footerGround{
+    
 }
+.containerFoot{
+    
+    display: flex;
+    height: 200 px;
+    width: 100%;
+    background-color: #9F9D9A;
+    }
+    
+    
