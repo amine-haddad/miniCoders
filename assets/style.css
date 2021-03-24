@@ -1,170 +1,322 @@
 body {
+    font-family: 'Raleway', sans-serif;
     background-color: white;
     margin: 0;
 }
 
 /*partie header*/
-
-.containerheader {
-    background-color: #9F9D9A;
-    display: flex;
-    flex-direction: column;
-    /* => A utiliser quand le burger est affiché */
-    flex-direction: row;
-    /*; => A utiliser quand le burger n'est pas affiché */
+.nameSignature{
+    /*height: 40px;*/ 
+    display:flex; 
+    justify-content: flex-end;
+    width: 100%;
+    background-color: none ;
+       
 }
-
-li {
-    list-style-type: none;
-    padding: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #000000;
-}
-
-input[type="checkbox"]:not(:checked)+ul {
-    display: none;
-}
-
-input[type="checkbox"]:checked+ul {
-    display: flex;
-}
-
-/* Gestion de la checkbox */
-
-input[type="checkbox"]+label:before {
-    font-family: FontAwesome;
-    font-size: 30px;
-}
-
-input[type="checkbox"]+label:before {
-    content: "\f0c9";
-}
-
-input[type="checkbox"]:not(:checked)+label:before {
-    content: "\f0c9";
-}
-
-input[type="checkbox"]:checked+label:before {
-    content: "\f00d";
-}
-
-h1 {
+.signedJohn {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: #FFFBFF;
+    align-content: center;
     text-align: center;
-    font-size: xx-large;
 }
+.containerheader {
+    height: auto;
+    background-color: #9F9D9A;
+    display:flex; 
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0; 
+    
+}
+#burger {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color:none;
+}
+.logoNav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+.checkboxInput {
+    position: absolute;
+    left: -9999px;
+}
+
+
+
+.menubuttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+ .btnNav {
+    padding: 0px;
+    list-style-type: none;
+    
+ }
+.aNavhf{
+    text-align: center;
+    color: #FFFBFF;
+    text-decoration: none; 
+}
+input[type="checkbox"]:not(:checked) + .menubuttons {
+    display: none;
+   }
+   input[type="checkbox"]:checked + .menubuttons {
+   display: flex;
+   }
+   @media screen and (max-width: 640px) { 
+    /* Gestion de l'affichage du menu */
+    input[type="checkbox"]:not(:checked) ~ .menubuttons {
+        display: flex;
+        flex-direction: row;
+      display: none;
+    }
+  
+    input[type="checkbox"]:checked ~ .menubuttons {
+      display: flex;
+      flex-direction: column; /* => A utiliser quand le burger est affiché */
+      text-align: center;
+      width: 20%;
+    
+    }
+    /*.logoNav {
+        position: fixed;
+        left: 0;
+
+    }*/
+    .containerheader{
+        height: auto;
+        background-color: #9F9D9A;
+        display:flex;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        right: 0; 
+    }
+    #burger {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        background-color:none;
+        top: 0;
+        left: 0;
+        opacity: 0.80;
+    }
+    .nameSignature{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .signedJohn {
+
+    }
+    
+    /* Gestion de la checkbox */
+    input[type="checkbox"] + label:before {
+      font-family: FontAwesome;
+      font-size: 40px;
+    }
+  
+    input[type="checkbox"] + label:before {
+      content: "\f0c9";
+    }
+  
+    input[type="checkbox"]:not(:checked) + label:before {
+      content: "\f0c9";
+    }
+  
+    input[type="checkbox"]:checked + label:before {
+      content: "\f00d";
+      font-size: xx-small;
+    }
+  }
 
 /*partie home*/
 
 .home_page {
-    display: grid;
-    grid-template-columns: 1fr 9fr;
-    grid-template-rows: 1fr 8fr;
-    grid-template-areas: "header header" "sidebar main";
-    row-gap: 15px;
-    justify-items: stretch;
-    align-items: stretch;
+    background-color: #FFF4E9;
 }
 
-.home_header {
-    width: 100%;
-    grid-area: header;
-    position: fixed;
-    top: 0;
-    left: 0;
+.home_content {
+    display: flex;
+    justify-content: space-between;
 }
 
 .home_sidebar {
-    grid-area: sidebar;
     position: fixed;
-    left: 0;
-    justify-self: start;
+    margin-top: 20%;
+}
+
+.home_sidebar ul {
+    padding-left: 5px;
 }
 
 .home_sidebar ul li {
     list-style: none;
+    padding-top: 0px;
+    padding-bottom: 5px;
 }
 
 .home_sidebar img {
-    width: 30px;
+    width: 22px;
 }
 
 .home_sidebar p {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     color: black;
-    font-family: 'Rolaway', sans-serif;
-    letter-spacing: 4px;
-    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;
     margin: 0;
 }
 
 .home_img_title {
-    grid-area: main;
+    display: flex;
+    position: relative;
+    margin-left: 50px;  
+    margin-right: 25px;
+}
+
+.home_img img{
+    max-width: 100%;
+}
+
+.home_title {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 10%;
+    color: #FFF4E9;
+    width: 70%;
+}
+
+.home_title h1 {
+    font-size: 90px;
+    letter-spacing: 1px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.home_title h2 {
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+@keyframes fade-in {
+	0% { opacity:0; font-size:0; margin-left:100px; }
+  100% { opacity:1; font-size: 300%; margin-left: 0 }
+}
+
+
+@media screen and (min-width: 781px) and (max-width: 930px) {
+    .home_title h1 {
+        font-size: 65px;
+    }
+    
+    .home_title h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .home_title h1 {
+        font-size: 40px;
+    }
+    
+    .home_title h2 {
+        font-size: 20px;
+    }
+}
+
+.scroll_up {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 50px;
+    right: 25px;
+}
+
+.scroll_up img {
+    width: 30px;
 }
 
 /*partie about me*/
 
-.animate-text {
-    visibility: hidden;
-}
-
-.animate-text span {
-    display: flex;
-    color: lightgray;
-    animation: fade-in 0.8s ease-in-out 1;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fade-in {
-    0% {
-        opacity: 0;
-        font-size: 0;
-        margin-left: 100px;
+@media screen and (max-width:640px) {
+    .containerAboutMe {
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;
     }
-    100% {
-        opacity: 1;
-        font-size: 150%;
-        transform: rotate(360deg);
-        margin-left: 375;
+    .paragraphAboutMe{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+       
     }
 }
-
-.flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-evenly;
-}
-
-.flex-item {
-    background: #FFFBFF;
-    padding: 5px;
-    width: 500px;
-    height: 400px;
-    margin-top: 10px;
-    line-height: 35px;
-    color: #9F9D9A;
-    font-size: 16px;
-    text-align: center;
+ 
+.aboutMe{
+    background-color: #FFFBFF;
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #9F9D9A;
+    height:100vh;
 }
-
-h5 {
+.animate-text {
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
     font-size: 35px;
     text-align: center;
-    padding-top: 45px;
     font-family: 'Raleway', sans-serif;
     color: lightgray;
 }
+    @keyframes fade-in {
+        0% { opacity:0; font-size:0; margin-left:100px; }
+      100% { opacity:1; font-size:150%; transform:rotate(360deg); margin-left:375; }
+    }
+  
 
-section {
-    background-color: #FFFBFF;
-}
+.containerAboutMe {
+    display: flex; 
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 25px;
+
+   }
+  
+   
+   .imageAboutMe{
+     height: auto;
+     width: auto;
+     border-radius: 2px;
+     box-shadow: 2px 2px 0px;
+   }
+
+   .paragraphAboutMe {
+    max-width: 90%;
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+    
+     
+   }
+
+
+   
+
 
 /*partie projet*/
 @media screen and (max-width: 640px) {
@@ -186,8 +338,6 @@ section {
     background-color: #FFF4E9;
     height: 100vh;
 }
-    
-
 
 .imgProject {
     max-width: 90%;
@@ -289,14 +439,24 @@ textarea {
 
 /*partie footer*/
 
-.containerFooter {
-    height: 200 px;
+/*.containerFooter {
+
+}*/
+.containerFooter{
+    display: flex;
+    height: 150px;
     width: 100%;
     background-color: #9F9D9A;
 }
-
-@media screen and (max-width: 640px) {
-    ul {
-        flex-direction: column;
-    }
+.footerGround{
+    
 }
+.containerFoot{
+    
+    display: flex;
+    height: 200 px;
+    width: 100%;
+    background-color: #9F9D9A;
+    }
+    
+    
