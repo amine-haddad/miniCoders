@@ -55,3 +55,13 @@ function animate_home_text() {
 animate_home_text();
 
 
+// Partie Contact
+
+const message =
+  "Thank you for submitting. John DOE will treat your request as soon as possible.";
+
+document.getElementById("form");
+document.addEventListener("submit", function (event) {
+  event.preventDefault();
+  alert(message);
+});
