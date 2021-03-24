@@ -11,14 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
 
 </head>
-<body>
-<section class="containerheader">
-
+<body id="home_page_id">
+<section class=containerheader>
 
 <div class="nameSignature" id="signatureJohn">
             <h1 class=signedJohn>John doe</h1></div>
      <div class="logoNav"><img src="" alt=""></div>
-
      
 <div id="burger">
     
