@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="../assets/style.css">
 <section id="contact" class="all_contact">
     <h6 class="Contact">Contactez John DOE</h6>
         <p class="Merci">Merci de remplir le formulaire et John DOE vous répondra</p>
@@ -14,6 +13,5 @@
                     <div class="sectionSubmit"><button class="btnContact" type="button">SOUMETTRE</button></div>
                     
             </form>
+        </div>
 </section>
-
-

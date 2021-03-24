@@ -1,4 +1,6 @@
-<?php include "_layout/_header.php";
+<?php 
+
+include "_layout/_header.php";
 include "home.php";
 include "aboutMe.php";
 include "project.php";
