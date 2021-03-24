@@ -370,19 +370,17 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
 
 /*partie contact*/
 
+/*@media screen and (max-width: 640px) {
+    .animate-text {
+        letter-spacing: 2px;
+     }
+    }*/     
 .all_contact {
     background-color: #FFFBFF;
     padding-bottom: 0;
 
 }
 
-/*.Contact{
-    text-align: center;
-    color: white;
-    background-color: #9F9D9A;
-    height: 22px;
-    font-size: 16px;
-}*/
 .Merci{
     text-align: center;
     color: #9F9D9A;
