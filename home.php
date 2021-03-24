@@ -27,13 +27,15 @@
                 </li>
             </ul>
         </div>
-        <div class="home_img_title">
-            <div class="home_img">
-                <img src="https://zupimages.net/up/21/11/u43w.png" alt="keyboard_draw"/>
-            </div>
-            <div class="home_title">
-                <h1 class="animate-home-text">John Doe</h1>
-                <h2 class="animate-home-text">Web Developer</h2>
+        <div class="home_main_img_title">
+            <div class="home_img_title">
+                <div class="home_img">
+                    <img src="https://zupimages.net/up/21/11/u43w.png" alt="keyboard_draw"/>
+                </div>
+                <div class="home_title">
+                    <h1 class="animate-home-text">John Doe</h1>
+                    <h2 class="animate-home-text">Web Developer</h2>
+                </div>
             </div>
         </div>
         <div class="scroll_up">

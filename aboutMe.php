@@ -1,8 +1,6 @@
-
-
 <section class="aboutMe" id="pageAboutMe">
     
-    <h2 class="animate-text">ABOUT ME </h2>
+    <h2 class="animate-text">ABOUT  ME </h2>
 
         <main class="containerAboutMe">
                 <img class="imageAboutMe" src="https://zupimages.net/up/21/11/jsy7.jpg" alt="mon portrait" /> 
