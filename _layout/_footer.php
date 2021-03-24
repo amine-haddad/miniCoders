@@ -1,8 +1,8 @@
 <!--Ici tu code ton footer-->
 <section class="containerFooter">
-    <footer>
+    <footer class="footerGround">
         <div class="containerFoot">
-
+        
         </div>
 
     </footer>
@@ -10,4 +10,3 @@
 <script src="../assets/main.js"></script>
 </body>
 </html>
- 
