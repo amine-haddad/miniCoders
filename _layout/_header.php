@@ -14,19 +14,19 @@
 <body id="home_page_id">
 <section class=containerheader>
 
-<div class="nameSignature" id="signatureJohn">
-            <h1 class=signedJohn>John doe</h1></div>
-     <div class="logoNav"><img src="" alt=""></div>
+    <div class="nameSignature" id="signatureJohn">
+            <h1 class=signedJohn>John doe</h1>
+    </div>
      
-<div id="burger">
+    <div id="burger">
     
      <input class="checkboxInput" type="checkbox" id="burger_checkbox"/>
      <label for="burger_checkbox"></label>
         <ul class=menubuttons id="menu">
-            <li class ="btnNav" id = "buttonHome"><a href="home.php"  class = "aNavhf"id ="btnHrefNav" >Home</a></li>
-            <li class ="btnNav" id = "buttonAbout"><a href="aboutMe.php"  class = "aNavhf"id ="btnHrefNav">About Me</a></li>
-            <li class ="btnNav" id = "buttonProject"><a href="project.php" class = "aNavhf"id ="btnHrefNav">Project</a></li>
-            <li class ="btnNav" id = "buttonContact"><a href="contact.php" class = "aNavhf"id ="btnHrefNav">Contact</a></li>
+            <li class ="btnNav" id = "buttonHome"><a href="#home_page"  class="aNavhf" id="btnHrefNav" >Home</a></li>
+            <li class ="btnNav" id = "buttonAbout"><a href="#pageAboutMe"  class="aNavhf" id="btnHrefNav">About Me</a></li>
+            <li class ="btnNav" id = "buttonProject"><a href="#pageProject" class="aNavhf" id="btnHrefNav">Project</a></li>
+            <li class ="btnNav" id = "buttonContact"><a href="#contact" class="aNavhf" id="btnHrefNav">Contact</a></li>
         </ul>   
    
 </div>     

@@ -8,9 +8,10 @@ body {
 .nameSignature{
     /*height: 40px;*/ 
     display:flex; 
-    justify-content: flex-end;
-    width: 100%;
+    justify-content: flex-start;
+    width: 33%;
     background-color: none ;
+    padding-left: 5%;
        
 }
 .signedJohn {
@@ -21,29 +22,22 @@ body {
     text-align: center;
 }
 .containerheader {
-    height: auto;
-    background-color: #9F9D9A;
+    height: 10%;
+    background-color: #d3c0d3;
     display:flex; 
     align-items: center;
     position: fixed;
     left: 0;
     right: 0; 
-    
+    z-index: 2;
 }
 #burger {
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
+    justify-content: center;
+    width: 67%;
     background-color:none;
 }
-.logoNav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: black;
-    width: 50px;
-    height: 50px;
-}
+
 .checkboxInput {
     position: absolute;
     left: -9999px;
@@ -94,8 +88,6 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
 
     }*/
     .containerheader{
-        height: auto;
-        background-color: #9F9D9A;
         display:flex;
         align-items: center;
         position: fixed;
@@ -105,15 +97,17 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     #burger {
         display: flex;
         justify-content: flex-end;
-        width: 100%;
+        width: 40%;
         background-color:none;
         top: 0;
         left: 0;
         opacity: 0.80;
+        padding-right: 3%;
     }
     .nameSignature{
         display: flex;
         justify-content: flex-end;
+        width: 60%;
     }
     .signedJohn {
 
@@ -142,7 +136,8 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
 /*partie home*/
 
 .home_page {
-    background-color: #FFF4E9;
+    background-color: #f8f1f8;
+    padding-bottom: 5%;
 }
 
 .home_content {
@@ -179,11 +174,15 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     margin: 0;
 }
 
-.home_img_title {
+.home_main_img_title {
     display: flex;
+}
+
+.home_img_title {
     position: relative;
     margin-left: 50px;  
     margin-right: 25px;
+    padding-top: 120px;
 }
 
 .home_img img{
@@ -197,8 +196,8 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 10%;
-    color: #FFF4E9;
+    top: 22%;
+    color: #f8f1f8;
     width: 70%;
 }
 
@@ -238,6 +237,10 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     .home_title h2 {
         font-size: 20px;
     }
+
+    .home_title {
+        top: 30%;
+    }
 }
 
 .scroll_up {
@@ -273,16 +276,19 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     color: #9F9D9A;
-    height:100vh;
+    padding-bottom: 5%;
 }
 .animate-text {
     justify-content: center;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 35px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: lightgray;
+    margin-top: 0;
+    padding-top: 5%;
+    letter-spacing: 8px;
 }
     @keyframes fade-in {
         0% { opacity:0; font-size:0; margin-left:100px; }
@@ -314,10 +320,6 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
      
    }
 
-
-   
-
-
 /*partie projet*/
 @media screen and (max-width: 640px) {
     .project {
@@ -335,8 +337,8 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     color: #9F9D9A;
-    background-color: #FFF4E9;
-    height: 100vh;
+    background-color: #f8f1f8;
+    padding-bottom: 5%;
 }
 
 .imgProject {
@@ -369,65 +371,78 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
 /*partie contact*/
 
 .all_contact {
-    background-color: #FFF4E9;
-    height: 100vh;
+    background-color: #FFFBFF;
+    padding-bottom: 0;
+
 }
 
-.Contact{
+/*.Contact{
     text-align: center;
     color: white;
     background-color: #9F9D9A;
     height: 22px;
     font-size: 16px;
-}
+}*/
 .Merci{
     text-align: center;
-    color: white;
-    background-color: #9F9D9A;
+    color: #9F9D9A;
     height: 22px;
-    font-size: 16px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.formulaire {
+    color: #9F9D9A;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.formulaire label {
+    text-align: center;
+    font-size: 20px;
 }
 
 .formulaire .enterFormulaire {
-    display: flex;
-    justify-content: space-around;
-    justify-content: center;
-    margin-bottom: 10px;
     padding: 10px;
-    background-color: #9F9D9A;
-    color: white;
-    text-align: center;
+    background-color: #f8f1f8;
+    color: #9F9D9A;
+    text-align: left;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
 }
 
-form {
-    width: 15%;
-    margin: auto;
-    padding-top: 50px;
-    background-color: #FFF4E9;
-}
 
 .texteClient{
     height: 160px;
     padding-right: 95px;
     size: 16px;
-    background-color: #9F9D9A;
-    color: white;
+    background-color: #f8f1f8;
+    color: #9F9D9A;
+    border: none;
 }
 
 .btnContact {
     display: block;
     margin: 20px auto 0;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: lighter;
     color: white;
     padding: 20px 60px;
-    background: black;
+    background: #d3c0d3;
     outline: none;
     border: none;
     cursor: pointer;
     border-radius: 20px;
     position: relative;
-    box-shadow: 0 6px #333;
+    box-shadow: 0 6px rgba(51, 51, 51, 0.521);
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 2px;
 }
 
 .sectionSubmit { 
@@ -445,21 +460,20 @@ form {
 /*partie footer*/
 
 .containerFooter{
+    height: 70px;
     display: flex;
-    height: 150px;
     width: 100%;
-    background-color: #9F9D9A;
+    background-color:#d3c0d3;
 }
 .footerGround{
     
 }
-.containerFoot{
-    
+/*.containerFoot{
     display: flex;
     height: 200 px;
     width: 100%;
-    background-color: #9F9D9A;
-    }
+    background-color: #d3c0d3;
+    }*/
     
     
 
