@@ -5,24 +5,8 @@ body {
 }
 
 /*partie header*/
-.nameSignature{
-    /*height: 40px;*/ 
-    display:flex; 
-    justify-content: flex-start;
-    width: 33%;
-    background-color: none ;
-    padding-left: 5%;
-       
-}
-.signedJohn {
-    font-family: 'Dancing Script', cursive;
-    font-size: 2.5em;
-    color: #FFFBFF;
-    align-content: center;
-    text-align: center;
-}
+
 .containerheader {
-    height: 10%;
     background-color: #d3c0d3;
     display:flex; 
     align-items: center;
@@ -31,112 +15,125 @@ body {
     right: 0; 
     z-index: 2;
 }
+
+.nameSignature{ 
+    display:flex; 
+    justify-content: flex-start;
+    width: 25%;
+    background-color: none ;
+    padding-left: 5%;
+       
+}
+.signedJohn {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: #FFFBFF;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 #burger {
     display: flex;
-    justify-content: center;
-    width: 67%;
-    background-color:none;
+    width: 75%;
+    align-items: center;
 }
 
-.checkboxInput {
-    position: absolute;
-    left: -9999px;
+ul .btnNav {
+    display: inline;
+    margin: 0 15px;
+    
 }
-
-
-
-.menubuttons {
+.btnUl{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    
-}
- .btnNav {
-    padding: 0px;
-    list-style-type: none;
-    
- }
-.aNavhf{
-    text-align: center;
+    justify-content: space-between;
+    width: 92%;
+    }
+.headerNormal {
+    display: flex;
+    background-color:  #d3c0d3;
     color: #FFFBFF;
-    text-decoration: none; 
+    width: 100%;
 }
-input[type="checkbox"]:not(:checked) + .menubuttons {
+nav a {
+    color: #FFFBFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.navBurger {
+    overflow: hidden;
+    background-color:  #d3c0d3;
+    position: relative;
+
+}
+
+.navBurger #myLinks {
     display: none;
-   }
-   input[type="checkbox"]:checked + .menubuttons {
-   display: flex;
-   }
-   @media screen and (max-width: 640px) { 
-    /* Gestion de l'affichage du menu */
-    input[type="checkbox"]:not(:checked) ~ .menubuttons {
-        display: flex;
-        flex-direction: row;
-      display: none;
-    }
-  
-    input[type="checkbox"]:checked ~ .menubuttons {
-      display: flex;
-      flex-direction: column; /* => A utiliser quand le burger est affiché */
-      text-align: center;
-      width: 20%;
-    
-    }
-    /*.logoNav {
-        position: fixed;
-        left: 0;
+}
 
-    }*/
-    .containerheader{
-        display:flex;
-        align-items: center;
-        position: fixed;
-        left: 0;
-        right: 0; 
-    }
-    #burger {
-        display: flex;
-        justify-content: flex-end;
-        width: 40%;
-        background-color:none;
-        top: 0;
-        left: 0;
-        opacity: 0.80;
-        padding-right: 3%;
-    }
-    .nameSignature{
-        display: flex;
-        justify-content: flex-end;
-        width: 60%;
-    }
-    .signedJohn {
-
-    }
+.navBurger a {
+    color: #FFFBFF;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+.navBurger .active{
+    font-size: 40px;
+}
+.aNavhf {
     
-    /* Gestion de la checkbox */
-    input[type="checkbox"] + label:before {
-      font-family: FontAwesome;
-      font-size: 40px;
+}
+
+.navBurger a.icon {
+    background: #d3c0d3;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.navBurger a:hover {
+    background-color:#FFFBFF;
+    color:  #d3c0d3;
+}
+
+.active {
+    font-family: 'Dancing Script', cursive;
+    background-color:  #d3c0d3;
+    color:#FFFBFF;
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    nav a {
+        color: #FFFBFF;
+        font-size: 12px;
+        text-decoration: none;
+        text-align: center;
     }
-  
-    input[type="checkbox"] + label:before {
-      content: "\f0c9";
+    .headerNormal {
+        display: none;
     }
-  
-    input[type="checkbox"]:not(:checked) + label:before {
-      content: "\f0c9";
+    .navBurger{
+        display: block;
+        width: 100%;
+        text-align: center;
+        
     }
-  
-    input[type="checkbox"]:checked + label:before {
-      content: "\f00d";
-      font-size: xx-small;
+}
+
+@media (min-width: 768px) {
+    .navBurger{
+        display: none;
     }
-  }
+}
 
 /*partie home*/
 
 .home_page {
-    background-color: #f8f1f8;
+    background-color: white;
     padding-bottom: 5%;
 }
 
@@ -180,8 +177,8 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
 
 .home_img_title {
     position: relative;
-    margin-left: 50px;  
-    margin-right: 25px;
+    margin-left: 35px;  
+    margin-right: 0px;
     padding-top: 120px;
 }
 
@@ -196,21 +193,25 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 22%;
-    color: #f8f1f8;
-    width: 70%;
+    top: 17%;
+    color: #d3c0d3;
+    
 }
 
 .home_title h1 {
-    font-size: 90px;
+    font-size: 105px;
     letter-spacing: 1px;
     font-family: 'Dancing Script', cursive;
+    margin-bottom: 0;
 }
 
 .home_title h2 {
     font-size: 40px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 0.2rem;
 }
 
 @keyframes fade-in {
@@ -219,27 +220,77 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
 }
 
 
-@media screen and (min-width: 781px) and (max-width: 930px) {
+@media screen and (min-width: 1070px) and (max-width: 1360px) {
     .home_title h1 {
-        font-size: 65px;
+        font-size: 70px;
     }
     
     .home_title h2 {
         font-size: 30px;
     }
+
+    .home_title {
+        top: 23%;
+    }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 970px) and (max-width: 1069px) {
+    .home_title h1 {
+        font-size: 60px;
+    }
+    
+    .home_title h2 {
+        font-size: 25px;
+    }
+
+    .home_title {
+        top: 25%;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 969px) {
+    .home_title h1 {
+        font-size: 50px;
+    }
+    
+    .home_title h2 {
+        font-size: 18px;
+    }
+
+    .home_title {
+        top: 28%;
+    }
+}
+
+@media screen and (min-width: 510px) and (max-width: 749px) {
     .home_title h1 {
         font-size: 40px;
     }
     
     .home_title h2 {
-        font-size: 20px;
+        font-size: 12px;
+        text-underline-offset: 0.5rem;
+        text-decoration-thickness: 0.1rem;
     }
 
     .home_title {
-        top: 30%;
+        top: 33%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 509px) {
+    .home_title h1 {
+        font-size: 28px;
+    }
+    
+    .home_title h2 {
+        font-size: 7px;
+        text-underline-offset: 0.5rem;
+        text-decoration-thickness: 0.1rem;
+    }
+
+    .home_title {
+        top: 41%;
     }
 }
 
@@ -308,20 +359,41 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
    .imageAboutMe{
      height: auto;
      width: auto;
-     border-radius: 2px;
+     border-radius: 2%;
      box-shadow: 2px 2px 0px;
    }
 
    .paragraphAboutMe {
     max-width: 90%;
-    text-align: center;
+    text-align: justify;
     padding: 5% 5% 5% 5%;
-    
      
    }
 
+   #monlienhref{
+       font-size: 25px;
+       text-decoration: none;
+       font-family:'Dancing Script', cursive;
+       font-weight: bold;
+       color: #d3c0d3;
+    
+      
+   }
+
 /*partie projet*/
-@media screen and (max-width: 640px) {
+
+@media screen and (min-width: 769px) {
+    .modal1 {
+        display: none;
+    }
+}
+    /*.modal2 {
+        display: none;
+    }
+    .modal3 {
+        display: none;
+    }*/
+@media screen and (max-width: 768px) {
     .project {
         display: flex;
         flex-direction: column;
@@ -330,7 +402,106 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     .textDescriptionProject {
         display: none;
     }
+    /* The Modal1 (background) */
+    .modal1 {
+        display: none; /* Hidden by default */
+        position: center; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: #FFFBFF;
+        background-color: r#fffbffd2; /* Black w/ opacity */
+        }
+
+/* Modal1 Content/Box */
+    .modal1-content {
+        background-color: #fefefe;
+        margin: 5% auto; /* 15% from the top and centered */
+        padding: 5%;
+        width: 80%; /* Could be more or less, depending on screen size */
+    }
+/* The Close Button 1*/
+    .close1 {
+        color: #aaa;
+        float: inline-end;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close1:hover,
+    .close1:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* The Modal2 (background)*/
+    .modal2 {
+        display: none; 
+        position: center; 
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: #FFFBFF;
+        background-color: r#fffbffd2; 
+        }
+
     
+    .modal2-content {
+        background-color: #fefefe;
+        margin: 5% auto; 
+        padding: 5%;
+        width: 80%; 
+    }
+
+    .close2 {
+        color: #aaa;
+        float: inline-end;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close2:hover,
+    .close2:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    
+    .modal3 {
+        display: none; 
+        position: center; 
+        z-index: 1; 
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: #FFFBFF;
+        background-color: r#fffbffd2; 
+        }
+
+    
+    .modal3-content {
+        background-color: #fefefe;
+        margin: 5% auto; 
+        padding: 5%;
+        width: 80%; 
+    }
+
+    .close3 {
+        color: #aaa;
+        float: inline-end;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close3:hover,
+    .close3:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
 }
 
 .backgroundProject {
@@ -339,6 +510,7 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     color: #9F9D9A;
     background-color: #f8f1f8;
     padding-bottom: 5%;
+    text-align: justify;
 }
 
 .imgProject {
@@ -368,18 +540,12 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
 }
 
 
-/*partie contact*/
 
-/*@media screen and (max-width: 640px) {
-    .animate-text {
-        letter-spacing: 2px;
-     }
-    }*/     
+/*partie contact*/
+    
 .all_contact {
     background-color: #FFFBFF;
     padding-bottom: 0;
-    
-
 }
 
 .Merci{
@@ -456,6 +622,10 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     top: 6px;
 }
 
+.php {
+    color: red;
+}
+
 /*partie footer*/
 
 .containerFooter{
@@ -463,16 +633,20 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     display: flex;
     width: 100%;
     background-color:#d3c0d3;
+    text-align: center;
 }
-.footerGround{
-    
-}
-/*.containerFoot{
-    display: flex;
-    height: 200 px;
+
+.footerGround {
     width: 100%;
-    background-color: #d3c0d3;
-    }*/
+}
+
+.containerFoot{
+    color: #FFFBFF;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;    
+}
+
     
     
 
