@@ -510,6 +510,10 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     top: 6px;
 }
 
+.php {
+    color: red;
+}
+
 /*partie footer*/
 
 .containerFooter{
