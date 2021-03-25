@@ -55,3 +55,5 @@ function animate_home_text() {
 animate_home_text();
 
 
+
+
