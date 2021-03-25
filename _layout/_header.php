@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/12c728ad22.js" crossorigin="anonymous"></script>
-
 </head>
 <body id="home_page_id">
 <section class=containerheader>

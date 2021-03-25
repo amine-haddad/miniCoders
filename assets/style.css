@@ -133,7 +133,7 @@ nav a {
 /*partie home*/
 
 .home_page {
-    background-color: #f8f1f8;
+    background-color: white;
     padding-bottom: 5%;
 }
 
@@ -177,8 +177,8 @@ nav a {
 
 .home_img_title {
     position: relative;
-    margin-left: 50px;  
-    margin-right: 25px;
+    margin-left: 35px;  
+    margin-right: 0px;
     padding-top: 120px;
 }
 
@@ -193,21 +193,25 @@ nav a {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 22%;
-    color: #f8f1f8;
-    width: 70%;
+    top: 17%;
+    color: #d3c0d3;
+    
 }
 
 .home_title h1 {
-    font-size: 90px;
+    font-size: 105px;
     letter-spacing: 1px;
     font-family: 'Dancing Script', cursive;
+    margin-bottom: 0;
 }
 
 .home_title h2 {
     font-size: 40px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 0.2rem;
 }
 
 @keyframes fade-in {
@@ -216,27 +220,77 @@ nav a {
 }
 
 
-@media screen and (min-width: 781px) and (max-width: 930px) {
+@media screen and (min-width: 1070px) and (max-width: 1360px) {
     .home_title h1 {
-        font-size: 65px;
+        font-size: 70px;
     }
     
     .home_title h2 {
         font-size: 30px;
     }
+
+    .home_title {
+        top: 23%;
+    }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 970px) and (max-width: 1069px) {
+    .home_title h1 {
+        font-size: 60px;
+    }
+    
+    .home_title h2 {
+        font-size: 25px;
+    }
+
+    .home_title {
+        top: 25%;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 969px) {
+    .home_title h1 {
+        font-size: 50px;
+    }
+    
+    .home_title h2 {
+        font-size: 18px;
+    }
+
+    .home_title {
+        top: 28%;
+    }
+}
+
+@media screen and (min-width: 510px) and (max-width: 749px) {
     .home_title h1 {
         font-size: 40px;
     }
     
     .home_title h2 {
-        font-size: 20px;
+        font-size: 12px;
+        text-underline-offset: 0.5rem;
+        text-decoration-thickness: 0.1rem;
     }
 
     .home_title {
-        top: 30%;
+        top: 33%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 509px) {
+    .home_title h1 {
+        font-size: 28px;
+    }
+    
+    .home_title h2 {
+        font-size: 7px;
+        text-underline-offset: 0.5rem;
+        text-decoration-thickness: 0.1rem;
+    }
+
+    .home_title {
+        top: 41%;
     }
 }
 
@@ -370,7 +424,6 @@ nav a {
 .all_contact {
     background-color: #FFFBFF;
     padding-bottom: 0;
-
 }
 
 /*.Contact{
@@ -454,6 +507,10 @@ nav a {
     top: 6px;
 }
 
+.php {
+    color: red;
+}
+
 /*partie footer*/
 
 .containerFooter{
@@ -461,16 +518,20 @@ nav a {
     display: flex;
     width: 100%;
     background-color:#d3c0d3;
+    text-align: center;
 }
-.footerGround{
-    
-}
-/*.containerFoot{
-    display: flex;
-    height: 200 px;
+
+.footerGround {
     width: 100%;
-    background-color: #d3c0d3;
-    }*/
+}
+
+.containerFoot{
+    color: #FFFBFF;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;    
+}
+
     
     
 
