@@ -5,24 +5,8 @@ body {
 }
 
 /*partie header*/
-.nameSignature{
-    /*height: 40px;*/ 
-    display:flex; 
-    justify-content: flex-start;
-    width: 33%;
-    background-color: none ;
-    padding-left: 5%;
-       
-}
-.signedJohn {
-    font-family: 'Dancing Script', cursive;
-    font-size: 2.5em;
-    color: #FFFBFF;
-    align-content: center;
-    text-align: center;
-}
+
 .containerheader {
-    height: 10%;
     background-color: #d3c0d3;
     display:flex; 
     align-items: center;
@@ -31,107 +15,120 @@ body {
     right: 0; 
     z-index: 2;
 }
+
+.nameSignature{ 
+    display:flex; 
+    justify-content: flex-start;
+    width: 25%;
+    background-color: none ;
+    padding-left: 5%;
+       
+}
+.signedJohn {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: #FFFBFF;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 #burger {
     display: flex;
-    justify-content: center;
-    width: 67%;
-    background-color:none;
+    width: 75%;
+    align-items: center;
 }
 
-.checkboxInput {
-    position: absolute;
-    left: -9999px;
+ul .btnNav {
+    display: inline;
+    margin: 0 15px;
+    
 }
-
-
-
-.menubuttons {
+.btnUl{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    
-}
- .btnNav {
-    padding: 0px;
-    list-style-type: none;
-    
- }
-.aNavhf{
-    text-align: center;
+    justify-content: space-between;
+    width: 92%;
+    }
+.headerNormal {
+    display: flex;
+    background-color:  #d3c0d3;
     color: #FFFBFF;
-    text-decoration: none; 
+    width: 100%;
 }
-input[type="checkbox"]:not(:checked) + .menubuttons {
+nav a {
+    color: #FFFBFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.navBurger {
+    overflow: hidden;
+    background-color:  #d3c0d3;
+    position: relative;
+
+}
+
+.navBurger #myLinks {
     display: none;
-   }
-   input[type="checkbox"]:checked + .menubuttons {
-   display: flex;
-   }
-   @media screen and (max-width: 640px) { 
-    /* Gestion de l'affichage du menu */
-    input[type="checkbox"]:not(:checked) ~ .menubuttons {
-        display: flex;
-        flex-direction: row;
-      display: none;
-    }
-  
-    input[type="checkbox"]:checked ~ .menubuttons {
-      display: flex;
-      flex-direction: column; /* => A utiliser quand le burger est affiché */
-      text-align: center;
-      width: 20%;
-    
-    }
-    /*.logoNav {
-        position: fixed;
-        left: 0;
+}
 
-    }*/
-    .containerheader{
-        display:flex;
-        align-items: center;
-        position: fixed;
-        left: 0;
-        right: 0; 
-    }
-    #burger {
-        display: flex;
-        justify-content: flex-end;
-        width: 40%;
-        background-color:none;
-        top: 0;
-        left: 0;
-        opacity: 0.80;
-        padding-right: 3%;
-    }
-    .nameSignature{
-        display: flex;
-        justify-content: flex-end;
-        width: 60%;
-    }
-    .signedJohn {
-
-    }
+.navBurger a {
+    color: #FFFBFF;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+.navBurger .active{
+    font-size: 40px;
+}
+.aNavhf {
     
-    /* Gestion de la checkbox */
-    input[type="checkbox"] + label:before {
-      font-family: FontAwesome;
-      font-size: 40px;
+}
+
+.navBurger a.icon {
+    background: #d3c0d3;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.navBurger a:hover {
+    background-color:#FFFBFF;
+    color:  #d3c0d3;
+}
+
+.active {
+    font-family: 'Dancing Script', cursive;
+    background-color:  #d3c0d3;
+    color:#FFFBFF;
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    nav a {
+        color: #FFFBFF;
+        font-size: 12px;
+        text-decoration: none;
+        text-align: center;
     }
-  
-    input[type="checkbox"] + label:before {
-      content: "\f0c9";
+    .headerNormal {
+        display: none;
     }
-  
-    input[type="checkbox"]:not(:checked) + label:before {
-      content: "\f0c9";
+    .navBurger{
+        display: block;
+        width: 100%;
+        text-align: center;
+        
     }
-  
-    input[type="checkbox"]:checked + label:before {
-      content: "\f00d";
-      font-size: xx-small;
+}
+
+@media (min-width: 768px) {
+    .navBurger{
+        display: none;
     }
-  }
+}
 
 /*partie home*/
 
