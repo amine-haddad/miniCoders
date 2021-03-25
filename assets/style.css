@@ -387,12 +387,12 @@ nav a {
         display: none;
     }
 }
-    /*.modal2 {
+    .modal2 {
         display: none;
     }
     .modal3 {
         display: none;
-    }*/
+    }
 @media screen and (max-width: 768px) {
     .project {
         display: flex;
