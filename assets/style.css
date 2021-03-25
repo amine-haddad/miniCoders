@@ -61,7 +61,6 @@ nav a {
     text-decoration: none;
 }
 
-
 .navBurger {
     overflow: hidden;
     background-color:  #d3c0d3;
@@ -82,9 +81,6 @@ nav a {
 }
 .navBurger .active{
     font-size: 40px;
-}
-.aNavhf {
-    
 }
 
 .navBurger a.icon {
