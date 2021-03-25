@@ -30,7 +30,7 @@
         <div class="home_main_img_title">
             <div class="home_img_title">
                 <div class="home_img">
-                    <img src="https://zupimages.net/up/21/11/u43w.png" alt="keyboard_draw"/>
+                    <img src="https://zupimages.net/up/21/12/jhbq.png" alt="keyboard_pic"/>
                 </div>
                 <div class="home_title">
                     <h1 class="animate-home-text">John Doe</h1>
