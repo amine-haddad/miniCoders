@@ -64,10 +64,7 @@ function burgerMenu() {
       x.style.display = "block";
   }
 }
-function darkMode() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-}
 
 function reloadThePage(){
   window.location.reload(); } 
+
