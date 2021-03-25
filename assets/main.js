@@ -69,3 +69,5 @@ function darkMode() {
   element.classList.toggle("dark-mode");
 }
 
+function reloadThePage(){
+  window.location.reload(); } 

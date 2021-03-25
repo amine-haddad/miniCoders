@@ -21,20 +21,20 @@
         </div>
         <nav id="burger">
             <ul class="btnUl">
-                <li class ="btnNav" id = "buttonHome"><a href="#home_page"  class="aNavhf" id="btnHrefNav" >Home</a></li>
-                <li class ="btnNav" id = "buttonAbout"><a href="#pageAboutMe"  class="aNavhf" id="btnHrefNav">About Me</a></li>
-                <li class ="btnNav" id = "buttonProject"><a href="#pageProject" class="aNavhf" id="btnHrefNav">Project</a></li>
-                <li class ="btnNav" id = "buttonContact"><a href="#contact" class="aNavhf" id="btnHrefNav">Contact</a></li>
+                <li class ="btnNav" id = "buttonHome" onClick="reloadThePage()"><a href="#home_page"  class="aNavhf" id="btnHrefNav" >Home</a></li>
+                <li class ="btnNav" id = "buttonAbout" onClick="reloadThePage()"><a href="#pageAboutMe"  class="aNavhf" id="btnHrefNav">About Me</a></li>
+                <li class ="btnNav" id = "buttonProject" onClick="reloadThePage()"><a href="#pageProject" class="aNavhf" id="btnHrefNav">Project</a></li>
+                <li class ="btnNav" id = "buttonContact" onClick="reloadThePage()"><a href="#contact" class="aNavhf" id="btnHrefNav">Contact</a></li>
             </ul>
         </nav>
     </header>
     <div class="navBurger">
         <a href="index.php" class="active">John Doe</a>
         <div id="myLinks">
-            <a href="#home_page"  class="aNavhf" id="btnHrefNav" >Home</a>
-            <a href="#pageAboutMe"  class="aNavhf" id="btnHrefNav">About Me</a>
-            <a href="#pageProject" class="aNavhf" id="btnHrefNav">Project</a>
-            <a href="#contact" class="aNavhf" id="btnHrefNav">Contact</a>
+            <a href="#home_page"  class="aNavhf" id="btnHrefNav" onClick="reloadThePage()">Home</a>
+            <a href="#pageAboutMe"  class="aNavhf" id="btnHrefNav"onClick="reloadThePage()">About Me</a>
+            <a href="#pageProject" class="aNavhf" id="btnHrefNav"onClick="reloadThePage()">Project</a>
+            <a href="#contact" class="aNavhf" id="btnHrefNav" onClick="reloadThePage()">Contact</a>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">
             <i class="fa fa-bars"></i>
