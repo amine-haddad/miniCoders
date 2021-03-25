@@ -3,7 +3,7 @@
         <div class="home_sidebar">
             <ul>
                 <li>
-                    <a href="https://www.facebook.com/fanny.lemaitre.906" target="_blank">
+                    <a href="https://www.facebook.com/anne.green.3110/" target="_blank">
                     <img src="https://zupimages.net/up/21/11/gl3g.png" alt="logo facebook"/>
                     </a>
                 </li>
@@ -13,12 +13,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/fanny-lemaitre-hermenier-78732aba/" target="_blank">
+                    <a href="https://www.linkedin.com/in/amine-haddad-a7a55a206/" target="_blank">
                     <img src="https://zupimages.net/up/21/11/0p2m.png" alt="logo linkedin"/>
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/?lang=fr" target="_blank">
+                    <a href="https://twitter.com/OlivierMaffre" target="_blank">
                     <img src="https://zupimages.net/up/21/11/i8n3.png" alt="logo twitter"/>
                     </a>
                 </li>
@@ -30,7 +30,7 @@
         <div class="home_main_img_title">
             <div class="home_img_title">
                 <div class="home_img">
-                    <img src="https://zupimages.net/up/21/11/u43w.png" alt="keyboard_draw"/>
+                    <img src="https://zupimages.net/up/21/12/jhbq.png" alt="keyboard_pic"/>
                 </div>
                 <div class="home_title">
                     <h1 class="animate-home-text">John Doe</h1>
