@@ -287,7 +287,7 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
     font-family: 'Raleway', sans-serif;
     color: lightgray;
     margin-top: 0;
-    padding-top: 5%;
+    padding-top: 90px;
     letter-spacing: 8px;
 }
     @keyframes fade-in {
@@ -378,6 +378,7 @@ input[type="checkbox"]:not(:checked) + .menubuttons {
 .all_contact {
     background-color: #FFFBFF;
     padding-bottom: 0;
+    
 
 }
 
