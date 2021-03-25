@@ -61,7 +61,7 @@
                         Laudantium voluptates recusandae cupiditate eos, quos, quis suscipit adipisci natus inventore delectus architecto repellat quod cum corrupti!
                         Natus, consequuntur dignissimos? Ratione, rem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
                 </div>
-                </div> -->
+                </div>
                 <h2 class="titleUnderProject">La Bretagne vous gagne</h2>
                 <img class="imgProject" src="https://zupimages.net/up/21/11/a25u.jpg" alt="Bretagne Sea lighthouse" id="myBtn3"/>
                 <p class="textDescriptionProject">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non qui magnam animi quaerat est, quasi natus voluptas itaque adipisci reiciendis quidem aut sequi rem.

@@ -382,18 +382,8 @@ nav a {
 
 /*partie projet*/
 
-@media screen and (min-width: 769px) {
-    .modal1 {
-        display: none;
-    }
-}
-    /*.modal2 {
-        display: none;
-    }
-    .modal3 {
-        display: none;
-    }*/
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 640px) {
     .project {
         display: flex;
         flex-direction: column;
@@ -479,7 +469,7 @@ nav a {
         overflow: auto; 
         background-color: #FFFBFF;
         background-color: r#fffbffd2; 
-        }
+    }
 
     
     .modal3-content {
@@ -501,6 +491,19 @@ nav a {
         color: black;
         text-decoration: none;
         cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .modal1-content { 
+        display: none;
+    }
+
+    .modal2-content {
+        display: none;
+    }
+    .modal3-content {
+        display: none;
     }
 }
 
