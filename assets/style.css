@@ -338,7 +338,7 @@ nav a {
     font-family: 'Raleway', sans-serif;
     color: lightgray;
     margin-top: 0;
-    padding-top: 5%;
+    padding-top: 90px;
     letter-spacing: 8px;
 }
     @keyframes fade-in {
@@ -542,19 +542,12 @@ nav a {
 
 
 /*partie contact*/
-
+    
 .all_contact {
     background-color: #FFFBFF;
     padding-bottom: 0;
 }
 
-/*.Contact{
-    text-align: center;
-    color: white;
-    background-color: #9F9D9A;
-    height: 22px;
-    font-size: 16px;
-}*/
 .Merci{
     text-align: center;
     color: #9F9D9A;

@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST"){
     <h2 class="animate-text">CONTACT  JOHN  DOE</h2>
         <p class="Merci">Please fill in the form and John Doe will answer you</p>
                     
-            <form class=" formulaire " method="POST" action="#contact">
+            <form class="formulaire" method="POST" action="#contact">
                     <div class="php"><?php 
                     if (isset($errors['allField'])){
                         echo $errors['allField'];
@@ -60,3 +60,4 @@ if ($_SERVER['REQUEST_METHOD'] === "POST"){
             </form>
         </div>
 </section>
+
