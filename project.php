@@ -62,6 +62,7 @@
                         Natus, consequuntur dignissimos? Ratione, rem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
                   </div>  
                 </div>
+             
                 <h2 class="titleUnderProject">Travel</h2>
                 <img class="imgProject" src="https://zupimages.net/up/21/11/xiq3.jpg" alt="New York" id="myBtn3"/>
 

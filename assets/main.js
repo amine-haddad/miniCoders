@@ -75,7 +75,6 @@ span1.onclick = function() {
     modal1.style.display = "none";
 }
 
-
 // Get the modal2
 var modal2 = document.getElementById('myModal2');
 
@@ -94,7 +93,6 @@ btn2.onclick = function() {
 span2.onclick = function() {
     modal2.style.display = "none";
 }
-
 
 // Get the modal3
 var modal3 = document.getElementById('myModal3');
