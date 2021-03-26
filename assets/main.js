@@ -129,9 +129,4 @@ function burgerMenu() {
 function reloadThePage(){
   window.location.reload(); } 
 
-
-document.getElementById("form");
-document.addEventListener("submit", function (event) {
-  event.preventDefault();
-  alert(message);
-});*/
+// Partie Contact
