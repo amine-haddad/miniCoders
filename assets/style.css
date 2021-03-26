@@ -5,7 +5,7 @@ body {
 }
 
 /*partie header*/
-
+/*conteneur de l ensemble du head*/
 .containerheader {
     background-color: #d3c0d3;
     display:flex; 
@@ -15,7 +15,14 @@ body {
     right: 0; 
     z-index: 2;
 }
+.headerNormal {
+    display: flex;
+    background-color:  #d3c0d3;
+    color: #FFFBFF;
+    width: 100%;
+}
 
+/*nom de l utilisateur du portfolio*/
 .nameSignature{ 
     display:flex; 
     justify-content: flex-start;
@@ -32,7 +39,7 @@ body {
     margin-bottom: 0px;
     margin-top: 0px;
 }
-
+/*navigation descktop */
 #burger {
     display: flex;
     width: 75%;
@@ -49,18 +56,14 @@ ul .btnNav {
     justify-content: space-between;
     width: 92%;
     }
-.headerNormal {
-    display: flex;
-    background-color:  #d3c0d3;
-    color: #FFFBFF;
-    width: 100%;
-}
+
 nav a {
     color: #FFFBFF;
     font-size: 20px;
     text-decoration: none;
 }
 
+/*Navigation mobileFirst*/
 
 .navBurger {
     overflow: hidden;
@@ -83,9 +86,8 @@ nav a {
 .navBurger .active{
     font-size: 40px;
 }
-.aNavhf {
-    
-}
+
+/*fonctionnalité burger à partir de l icon*/
 
 .navBurger a.icon {
     background: #d3c0d3;
@@ -107,12 +109,6 @@ nav a {
 }
 
 @media (min-width: 375px) and (max-width: 767px){
-    nav a {
-        color: #FFFBFF;
-        font-size: 12px;
-        text-decoration: none;
-        text-align: center;
-    }
     .headerNormal {
         display: none;
     }
@@ -121,6 +117,12 @@ nav a {
         width: 100%;
         text-align: center;
         
+    }
+    nav a {
+        color: #FFFBFF;
+        font-size: 12px;
+        text-decoration: none;
+        text-align: center;
     }
 }
 
@@ -382,18 +384,7 @@ nav a {
 
 /*partie projet*/
 
-@media screen and (min-width: 769px) {
-    .modal1 {
-        display: none;
-    }
-}
-    .modal2 {
-        display: none;
-    }
-    .modal3 {
-        display: none;
-    }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     .project {
         display: flex;
         flex-direction: column;
@@ -404,22 +395,22 @@ nav a {
     }
     /* The Modal1 (background) */
     .modal1 {
-        display: none; /* Hidden by default */
-        position: center; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
+        display: none; 
+        position: center; 
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
         background-color: #FFFBFF;
-        background-color: r#fffbffd2; /* Black w/ opacity */
+        background-color: #fffbff9d; 
         }
 
 /* Modal1 Content/Box */
     .modal1-content {
-        background-color: #fefefe;
-        margin: 5% auto; /* 15% from the top and centered */
-        padding: 5%;
-        width: 80%; /* Could be more or less, depending on screen size */
+        background-color: #d3c0d3;
+        margin: 10px auto;
+        padding: 15px;
+        width: 80%;
+        border-radius: 2%;
     }
 /* The Close Button 1*/
     .close1 {
@@ -444,15 +435,16 @@ nav a {
         height: 100%; 
         overflow: auto; 
         background-color: #FFFBFF;
-        background-color: r#fffbffd2; 
+        background-color: #fffbff9d; 
         }
 
     
     .modal2-content {
-        background-color: #fefefe;
-        margin: 5% auto; 
-        padding: 5%;
-        width: 80%; 
+        background-color: #d3c0d3;
+        margin: 10px auto;
+        padding: 15px;
+        width: 80%;
+        border-radius: 2%;    
     }
 
     .close2 {
@@ -478,15 +470,16 @@ nav a {
         height: 100%; 
         overflow: auto; 
         background-color: #FFFBFF;
-        background-color: r#fffbffd2; 
-        }
+        background-color: #fffbff9d; 
+    }
 
     
     .modal3-content {
-        background-color: #fefefe;
-        margin: 5% auto; 
-        padding: 5%;
-        width: 80%; 
+        background-color: #d3c0d3;
+        margin: 10px auto;
+        padding: 15px;
+        width: 80%;
+        border-radius: 2%; 
     }
 
     .close3 {
@@ -501,6 +494,19 @@ nav a {
         color: black;
         text-decoration: none;
         cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .modal1-content { 
+        display: none;
+    }
+
+    .modal2-content {
+        display: none;
+    }
+    .modal3-content {
+        display: none;
     }
 }
 
