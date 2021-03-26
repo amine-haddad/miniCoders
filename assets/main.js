@@ -116,6 +116,7 @@ span3.onclick = function() {
 }
 
 //partie js header
+/*fonction pour l'animation du menu descktop en burger menu quand il passe en mobilefirst.*/
 function burgerMenu() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
@@ -124,14 +125,10 @@ function burgerMenu() {
       x.style.display = "block";
   }
 }
-
+/*fonction pour que chaque page appelé par le menu descktop ou burger menu recharge la page.*/
 function reloadThePage(){
   window.location.reload(); } 
 
-// Partie Contact
-
-/*const message =
-  "Thank you for submitting. John DOE will treat your request as soon as possible.";
 
 document.getElementById("form");
 document.addEventListener("submit", function (event) {

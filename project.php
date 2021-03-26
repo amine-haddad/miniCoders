@@ -53,17 +53,18 @@
                 <!-- The Modal3 -->
                 <div id="myModal3" class="modal3">
 
-                <div class="modal3-content">
-                <span class="close3">x</span>
-                <img  class="imgProject" src="https://zupimages.net/up/21/12/zbhz.png" alt="Cuba"/>
-                <img  class="imgProject" src="https://zupimages.net/up/21/11/a25u.jpg" alt="Bretagne"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  <div class="modal3-content">
+                    <span class="close3">x</span>
+                    <img  class="imgProject" src="https://zupimages.net/up/21/12/zbhz.png" alt="Cuba"/>
+                    <img  class="imgProject" src="https://zupimages.net/up/21/11/a25u.jpg" alt="Bretagne"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Laudantium voluptates recusandae cupiditate eos, quos, quis suscipit adipisci natus inventore delectus architecto repellat quod cum corrupti!
                         Natus, consequuntur dignissimos? Ratione, rem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-                </div>
+                  </div>  
                 </div>
                 <h2 class="titleUnderProject">Travel</h2>
                 <img class="imgProject" src="https://zupimages.net/up/21/11/xiq3.jpg" alt="New York" id="myBtn3"/>
+
                 <p class="textDescriptionProject">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non qui magnam animi quaerat est, quasi natus voluptas itaque adipisci reiciendis quidem aut sequi rem.
                      Ut porro accusamus nisi labore maxime! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                      Impedit provident, recusandae officiis nulla.</p>
