@@ -5,7 +5,7 @@ body {
 }
 
 /*partie header*/
-
+/*conteneur de l ensemble du head*/
 .containerheader {
     background-color: #d3c0d3;
     display:flex; 
@@ -15,7 +15,14 @@ body {
     right: 0; 
     z-index: 2;
 }
+.headerNormal {
+    display: flex;
+    background-color:  #d3c0d3;
+    color: #FFFBFF;
+    width: 100%;
+}
 
+/*nom de l utilisateur du portfolio*/
 .nameSignature{ 
     display:flex; 
     justify-content: flex-start;
@@ -32,7 +39,7 @@ body {
     margin-bottom: 0px;
     margin-top: 0px;
 }
-
+/*navigation descktop */
 #burger {
     display: flex;
     width: 75%;
@@ -49,19 +56,14 @@ ul .btnNav {
     justify-content: space-between;
     width: 92%;
     }
-.headerNormal {
-    display: flex;
-    background-color:  #d3c0d3;
-    color: #FFFBFF;
-    width: 100%;
-}
+
 nav a {
     color: #FFFBFF;
     font-size: 20px;
     text-decoration: none;
 }
 
-
+/*Navigation mobileFirst*/
 .navBurger {
     overflow: hidden;
     background-color:  #d3c0d3;
@@ -83,10 +85,7 @@ nav a {
 .navBurger .active{
     font-size: 40px;
 }
-.aNavhf {
-    
-}
-
+/*fonctionnalité burger à partir de l icon*/
 .navBurger a.icon {
     background: #d3c0d3;
     display: block;
@@ -107,12 +106,6 @@ nav a {
 }
 
 @media (min-width: 375px) and (max-width: 767px){
-    nav a {
-        color: #FFFBFF;
-        font-size: 12px;
-        text-decoration: none;
-        text-align: center;
-    }
     .headerNormal {
         display: none;
     }
@@ -121,6 +114,12 @@ nav a {
         width: 100%;
         text-align: center;
         
+    }
+    nav a {
+        color: #FFFBFF;
+        font-size: 12px;
+        text-decoration: none;
+        text-align: center;
     }
 }
 
