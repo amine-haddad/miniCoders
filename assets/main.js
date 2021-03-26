@@ -75,7 +75,6 @@ span1.onclick = function() {
     modal1.style.display = "none";
 }
 
-
 // Get the modal2
 var modal2 = document.getElementById('myModal2');
 
@@ -94,7 +93,6 @@ btn2.onclick = function() {
 span2.onclick = function() {
     modal2.style.display = "none";
 }
-
 
 // Get the modal3
 var modal3 = document.getElementById('myModal3');
@@ -116,6 +114,7 @@ span3.onclick = function() {
 }
 
 //partie js header
+/*fonction pour l'animation du menu descktop en burger menu quand il passe en mobilefirst.*/
 function burgerMenu() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
@@ -124,9 +123,6 @@ function burgerMenu() {
       x.style.display = "block";
   }
 }
-
+/*fonction pour que chaque page appelé par le menu descktop ou burger menu recharge la page.*/
 function reloadThePage(){
   window.location.reload(); } 
-
-// Partie Contact
-
