@@ -390,22 +390,22 @@ nav a {
     }
     /* The Modal1 (background) */
     .modal1 {
-        display: none; /* Hidden by default */
-        position: center; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
+        display: none; 
+        position: center; 
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
         background-color: #FFFBFF;
-        background-color: r#fffbffd2; /* Black w/ opacity */
+        background-color: #fffbff9d; 
         }
 
 /* Modal1 Content/Box */
     .modal1-content {
-        background-color: #fefefe;
-        margin: 5% auto; /* 15% from the top and centered */
-        padding: 5%;
-        width: 80%; /* Could be more or less, depending on screen size */
+        background-color: #d3c0d3;
+        margin: 10px auto;
+        padding: 15px;
+        width: 80%;
+        border-radius: 2%;
     }
 /* The Close Button 1*/
     .close1 {
@@ -430,15 +430,16 @@ nav a {
         height: 100%; 
         overflow: auto; 
         background-color: #FFFBFF;
-        background-color: r#fffbffd2; 
+        background-color: #fffbff9d; 
         }
 
     
     .modal2-content {
-        background-color: #fefefe;
-        margin: 5% auto; 
-        padding: 5%;
-        width: 80%; 
+        background-color: #d3c0d3;
+        margin: 10px auto;
+        padding: 15px;
+        width: 80%;
+        border-radius: 2%;    
     }
 
     .close2 {
@@ -464,15 +465,16 @@ nav a {
         height: 100%; 
         overflow: auto; 
         background-color: #FFFBFF;
-        background-color: r#fffbffd2; 
+        background-color: #fffbff9d; 
     }
 
     
     .modal3-content {
-        background-color: #fefefe;
-        margin: 5% auto; 
-        padding: 5%;
-        width: 80%; 
+        background-color: #d3c0d3;
+        margin: 10px auto;
+        padding: 15px;
+        width: 80%;
+        border-radius: 2%; 
     }
 
     .close3 {
