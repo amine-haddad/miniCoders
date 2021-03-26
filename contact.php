@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST"){
 }
 ?>
 <section id="contact" class="all_contact">
-    <h2 class="animate-text">CONTACT  JOHN  DOE</h2>
+    <h2 class="animate-text">CONTACT</h2>
         <p class="Merci">Please fill in the form and John Doe will answer you</p>
                     
             <form class="formulaire" method="POST" action="#contact">

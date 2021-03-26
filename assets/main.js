@@ -126,3 +126,5 @@ function burgerMenu() {
 /*fonction pour que chaque page appelé par le menu descktop ou burger menu recharge la page.*/
 function reloadThePage(){
   window.location.reload(); } 
+
+// Partie Contact
